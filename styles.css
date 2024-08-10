@@ -1,0 +1,126 @@
+:root{
+	--lime: #41c84c;
+	--mint: #9ee3a4;
+	--teal: #41c8b1;
+	--tiffany: #9ee3d7;
+	--plum: #6e2275;
+	--amethyst: #bc41c8;
+    --white: #fff;
+    --lt-gray: #eaeaea;
+    --med-gray: #555;
+    --dk-gray: #222;
+    --salmon: #FA8072;
+    --yellow: #DFFF00;
+    --blue: #6495ED;
+    --black: #000000;
+    --burgundy: #460714;
+    --lightyellow: #F5F100;
+}
+body{
+	margin: 0;
+	padding: 0;
+    background-color: var(--salmon);
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: #08085a;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #08085a 23px ), repeating-linear-gradient( #76012055, #760120 );
+    
+}
+
+header, main, footer{
+    width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+header, footer{
+    background-color: var(--blue);
+    text-align: center;
+    text-decoration: dotted;
+    padding: 4rem;
+}
+header{
+	padding: 5rem;
+	background-color: var(--med-gray);
+	color: var(--dk-gray);
+	border-bottom: 15px solid var(--black);
+    border-top: 15px solid var(--black);
+    border-left: 15px solid var(--black);
+    border-right: 15px solid var(--black);
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    align-self: center; 
+}
+nav ul{
+    font-size: 25px;
+    list-style-type:square;
+    padding: 3rem;
+    width: 650px;
+    margin: 8rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 1fr 1fr);
+    gap: 5rem;
+}
+nav a{
+    text-decoration: none;
+    background-color: var(--lt-gray);
+    color: var(--dk-gray);
+}
+
+nav a:hover{
+    background-color: var(--salmon);
+    color: var(--lightyellow);
+}
+
+a{
+    color: var(--lightyellow);
+    padding: 1rem;
+}
+
+a:hover{
+    color: var(--lime);
+}
+
+    h2{
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        background-color: #eaeaea;
+        font-style: italic;
+        border-color: #000000;
+        padding: 4rem;
+    
+    }
+
+    section{
+        max-width: 65ch;
+        margin-left: 0 4rem 4rem 2rem;
+        background-color: #555;
+        border-bottom: 2px solid var(--black);
+        border-top: 2px solid var(--black);
+        border-left: 2px solid var(--black);
+        border-right: 2px solid var(--black);
+        padding: 0rem;
+        width: 300px;
+        
+    }
+
+    p{
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: ghostwhite;
+        font-weight: bold;
+        background-color: var(--black);
+    }
+
+
+
+
+
+
+
+
+
